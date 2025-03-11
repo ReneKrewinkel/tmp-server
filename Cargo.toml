@@ -1,0 +1,17 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.commands]
+git = "git add --all && git commit -m \"update\" && git push"
+
+[dependencies]
+actix-web = "4.1.0"
+dotenv = "0.15.0"
+openai_api_rust = "0.1.8"
+serde = { version = "1.0.130", features = ["derive"] }
+serde_json = "1.0.68"
+futures = { version = "0.3.30", features = [] }
+firestore = "0.37.5"
+uuid = { version = "1.6.1", features = ["v4", "fast-rng", "macro-diagnostics"] }

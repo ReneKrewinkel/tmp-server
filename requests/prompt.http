@@ -1,0 +1,9 @@
+POST http://localhost:666/prompt
+Content-Type: application/json
+
+{
+  "id": "f3e9c8a7d471fa18fc22cb637365b416",
+  "prompt": "create a nl_NL sentence with 'coffee', 'together', 'tomorrow"
+}
+
+###
